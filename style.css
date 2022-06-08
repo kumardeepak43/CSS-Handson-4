@@ -1,0 +1,140 @@
+*{
+    margin-left: 0;
+}
+.offers{
+    background-image: linear-gradient(to right yellow, red, blue ,gold);
+}
+.offers p{
+    font-weight: bold;
+    text-align: center;
+}
+.list{
+    width: 40%;
+    margin: auto;
+    padding-top: 0.5px;
+    border: 2px double blueviolet;
+    border-radius: 20px;
+    background-color: yellowgreen;
+
+}
+.list ul{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.extra_text{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: rgb(86, 218, 174);
+    border-bottom: 5px double blueviolet;
+}
+.extra_text .text_box{
+    width: 30%;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid violet;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.performers_heading{
+    background-image: linear-gradient(to right, red,yellow,red);
+}
+.performers_heading p{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.performers_list{
+    border: 1px solid hsl(120, 28%, 33%);
+    margin: auto;
+    background-image: radial-gradient(blue, rgb(104, 213, 104));
+    display: flex;
+    justify-content: space-around;
+}
+.performers{
+    border: 1px solid pink;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: pink;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(86, 218, 174));
+    font-weight: bold;
+    font-size: small;
+}
+.grid_part{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+.full_top{
+    grid-column: 1/14;
+    grid-row: 1/2;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 0;
+
+
+}
+.sbox1{
+    grid-column: 1/5;
+    grid-row: 2/4;
+    text-align: center;
+    background-color: rgb(10, 182, 102);
+    color: gainsboro;
+    font-weight: bold;
+}
+.sbox2{
+    grid-column: 5/9;
+    grid-row: 2/4;
+    text-align: center;
+    background-color: rgb(81, 132, 195);
+    color: gainsboro;
+    font-weight: bold;
+}
+.sbox3{
+    grid-column: 9/13;
+    grid-row: 2/4;
+    text-align: center;
+    background-color: rgb(63, 27, 169);
+    color: gainsboro;
+    font-weight: bold;
+}
+.sbox{
+    grid-column: 13/14;
+    grid-row: 2/8;
+    text-align: center;
+    background-color: red;
+    color: gainsboro;
+    font-weight: bold;
+    line-height: 0;
+}
+.fbox{
+    grid-column: 1/13;
+    grid-row: 4/8;
+    background-color: black;
+    color: gainsboro;
+    font-weight: bold;
+    padding: 0px;
+    margin: auto;
+}
+.full_bottom{
+    grid-column: 1/14;
+    grid-row: 8/9;
+    text-align: center;
+    background-color: aqua;
+    font-weight: bolder;
+    line-height: 0;
+}
